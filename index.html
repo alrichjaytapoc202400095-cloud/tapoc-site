@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electric Calculator App</title>
+        rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', Arial, sans-serif;
+            background: #f7f7f7;
+        }
+
+        .container {
+           background: #fff;
+           max-width: 1000px;
+           width: 100%;
+           min-height: 600px;
+           margin: 40px auto;
+           box-shadow: 0 4px 24px rgba(64,80,130,0.08);
+           border-radius: 12px;
+}
+
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 24px 32px 0 32px;
+        }
+
+        .logo-section {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .logo {
+            width: 36px;
+            height: 36px;
+            background: #4a90e2;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+
+        .app-title {
+            font-size: 1rem;
+            font-weight: 500;
+        }
+
+        .header-buttons button {
+            background: #a9b3f6;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 16px;
+            margin-left: 12px;
+            cursor: pointer;
+            font-weight: 500;
+            transition: background 0.18s;
+        }
+
+        .header-buttons button:hover {
+            background: #8e9ee2;
+        }
+
+        .main-section {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 32px;
+        }
+
+        .welcome-text {
+            max-width: 480px;
+        }
+
+        .welcome-text h1 {
+            font-family: 'Montserrat', Arial, sans-serif;
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 12px;
+            color: #222;
+        }
+
+        .welcome-text p {
+            color: #444;
+            font-size: 1rem;
+        }
+
+        .calculator-image {
+            width: 220px;
+            transform: rotate(20deg);
+        }
+
+        .features-section {
+            display: flex;
+            justify-content: space-around;
+            background: #eef6f2;
+            padding: 32px 0;
+            border-radius: 0 0 12px 12px;
+        }
+
+        .feature {
+            text-align: center;
+            max-width: 260px;
+        }
+
+        .feature-icon {
+            font-size: 2.1rem;
+            margin-bottom: 10px;
+        }
+
+        .feature-title {
+            font-weight: bold;
+            font-size: 1.13rem;
+            margin-bottom: 6px;
+        }
+
+        .feature-desc {
+            font-size: 0.97rem;
+            color: #444;
+        }
+
+        .footer {
+            text-align: center;
+            font-size: 0.89rem;
+            color: #666;
+            margin-top: 20px;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo-section">
+                <div class="logo">⚡</div>
+                <span class="app-title">Electric Calculator App</span>
+            </div>
+            <div class="header-buttons">
+                <button>Register</button>
+                <button>Login</button>
+            </div>
+        </div>
+        <div class="main-section">
+            <div class="welcome-text">
+                <h1>Welcome to your Electric Bill Calculator</h1>
+                <p>
+                    Estimate your costs quickly with PowerCalc. Input your usage and rate to see your bill instantly!
+                </p>
+            </div>
+            <img class="calculator-image" src="calculator-image.png" alt="Calculator" />
+            <!-- Replace 'calculator-image.png' with your actual calculator image file -->
+        </div>
+        <div class="features-section">
+            <div class="feature">
+                <div class="feature-icon">🧮</div>
+                <div class="feature-title">Real-Time Results</div>
+                <div class="feature-desc">
+                    Get instant calculations for your electricity bills with accurate pricing data.
+                </div>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">⏰</div>
+                <div class="feature-title">History Tracking</div>
+                <div class="feature-desc">
+                    Save and track your electricity bills over time to monitor usage patterns.
+                </div>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">🔒</div>
+                <div class="feature-title">History Tracking</div>
+                <div class="feature-desc">
+                    Your data is protected with enterprise-grade security and encryption.
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        By continuing, you agree to the Terms of Use and Privacy Policy.
+    </div>
+</body>
+
+</html>
