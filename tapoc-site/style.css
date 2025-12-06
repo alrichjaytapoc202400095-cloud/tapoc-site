@@ -1,0 +1,119 @@
+
+.navbar {
+    background: #5a3e2b;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+}
+
+.navbar .logo {
+    color: #f7e7c1;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #f7e7c1;
+    transform: scale(1.1);
+}
+
+.home-section {
+    background: #f2e6d8;
+    padding: 40px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    border-left: 6px solid #6b4f30;
+}
+
+.home-section h1 {
+    font-size: 32px;
+    color: #5a3e2b;
+}
+
+.home-section p {
+    font-size: 18px;
+    color: #3d2b1f;
+}
+
+body {
+font-family: Arial, sans-serif;
+padding: 20px;
+background: #f5f1e3;
+}
+
+
+h1, h2 {
+color: #5a3e2b;
+}
+
+
+.btn {
+padding: 10px 15px;
+background: #6b4f30;
+color: #fff;
+text-decoration: none;
+border-radius: 5px;
+}
+
+
+form input {
+display: block;
+margin: 10px 0;
+padding: 10px;
+width: 250px;
+border: 1px solid #ccc;
+}
+
+
+button {
+padding: 10px 20px;
+background: #6b4f30;
+color: white;
+border: none;
+cursor: pointer;
+}
+
+
+table {
+width: 100%;
+border-collapse: collapse;
+margin-top: 20px;
+}
+
+
+table, th, td {
+border: 1px solid #bbb;
+}
+
+
+th, td {
+padding: 10px;
+text-align: center;
+}
+
+
+.edit {
+color: blue;
+}
+
+
+.delete {
+color: red;
+}
